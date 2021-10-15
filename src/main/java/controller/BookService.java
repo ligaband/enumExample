@@ -101,7 +101,7 @@ public Book bookByThreeAuthors(){
         for (Book book : books) {
 
                 if (book.getPrice() > mostExpensive.getPrice()) {
-                    mostExpensive = book
+                    mostExpensive = book;
 
             }
         }
